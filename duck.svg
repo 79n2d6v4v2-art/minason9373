@@ -1,0 +1,53 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xhtml="http://www.w3.org/1999/xhtml"
+     viewBox="0 0 1000 650"
+     width="1000" height="650">
+
+  <rect width="1000" height="650" fill="#fff"/>
+
+  <foreignObject x="0" y="0" width="1000" height="650">
+    <xhtml:div style="
+      width:100%;height:100%;
+      display:flex;flex-direction:column;
+      justify-content:center;align-items:center;
+      background:#fff;font-family:Arial,sans-serif;
+    ">
+
+      <xhtml:div style="font-size:58px;font-weight:bold;margin-bottom:30px;color:#222">
+        <xhtml:span style="color:#de5833">Duck</xhtml:span>DuckGo
+      </xhtml:div>
+
+      <xhtml:form action="https://duckduckgo.com/"
+                  method="get"
+                  target="_top"
+                  style="
+                    display:flex;width:80%;max-width:620px;
+                    height:55px;border:1px solid #ccc;
+                    border-radius:30px;overflow:hidden;
+                  ">
+
+        <xhtml:input name="q" type="text"
+          placeholder="Search DuckDuckGo..."
+          required="required"
+          style="
+            flex:1;min-width:0;border:0;outline:0;
+            padding:0 22px;font-size:17px;
+          "/>
+
+        <xhtml:button type="submit"
+          style="
+            border:0;background:#de5833;
+            color:white;padding:0 28px;
+            font-size:16px;cursor:pointer;
+          ">Search</xhtml:button>
+
+      </xhtml:form>
+
+      <xhtml:p style="color:#888;font-size:13px;margin-top:25px">
+        Private search powered by DuckDuckGo
+      </xhtml:p>
+
+    </xhtml:div>
+  </foreignObject>
+</svg>
